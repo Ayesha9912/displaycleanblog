@@ -1,7 +1,7 @@
 {
   "name": "blogdisplay",
   "homepage" : "https://Ayesha9912.github.io/displaycleanblog",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

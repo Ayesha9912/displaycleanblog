@@ -8,9 +8,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App(){
   return(
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/displaycleanblog'>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/displaycleanblog" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/post/:id" element={<Post/>}/>
