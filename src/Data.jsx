@@ -1,0 +1,50 @@
+import img1 from './assets/pexels-blitzboy-1175136.jpg'
+import img2 from './assets/pexels-felixmittermeier-957040.jpg'
+import img3 from './assets/pexels-minan1398-813269.jpg'
+import img4 from './assets/pexels-miriamespacio-110854.jpg'
+import img5 from './assets/pexels-pixabay-39896.jpg';
+
+export const data = [
+    {
+        id: 1,
+        title:"Tour the inner solar system",
+        description: "Take a deep dive into the rocky planets that make up our local neighborhood.",
+        content: "Approximately 4.5 billion years ago, a cold cloud of gas and dust buried deep in one of the Milky Way galaxy’s spiral arms started to collapse. From there, gravity worked its magic. The cloud began to contract and fragment; one of those fragments was destined to become our Sun and the rest of the solar system As gravity continued to compress the solar nebula, the central region that would become the Sun drew in the vast majority of material. At this stage of the solar system, the proto-Sun continued to contract and, as it did so, grew hotter. This persisted until its central temperature rose high enough to ignite the fires of nuclear fusion. The heat created by these nuclear reactions produced a pressure that counteracted the inward pull of gravity, and the object became the stable star we call the Sun. The Sun continues to produce energy in the same way. In the core, where temperatures reach 27 million degrees Fahrenheit (15 million degrees Celsius) positively charged protons (the nuclei of hydrogen atoms) can overcome their mutual repulsion and fuse together to create helium.Despite being a huge ball of gas, the Sun appears to have a sharp edge because the energy radiates from a thin layer only a couple hundred miles thick, compared with the Sun’s overall radius of 435,000 miles (700,000 kilometers).",
+        img: img1,
+        date: new Date()
+        
+    },
+    {
+        id: 2,
+        title:"60 years ago, Alan Shepard flew to space",
+        description: "“Why don’t you fix your little problem and light this candle?”",
+        content: "Early on May 5, 1961, the United States came to a standstill. A Philadelphia judge halted all court proceedings, crowds in Times Square sang and danced, and California traffic slowed to a crawl. In the White House, President John F. Kennedy stood dumbstruck, with his hands shoved deep into his pockets and his eyes fixed on an unlikely television picture. On this late spring morning 60 years ago, America safely sent its first man into space, causing an anxious nation to collectively exhale a sigh of relief.That man was 37-year-old Alan Shepard, a gruff New Englander and progeny of a wealthy and fiercely loyal military family. His adventurous spirit, keen wit, and a single-minded determination to be the best led the U.S. Navy to handpick Shepard to test its most advanced aircraft. Chosen in 1959 as one of NASA’s original “Mercury Seven” astronauts, Shepard’s thirst for pushing boundaries would ultimately carry him to the Moon. Still, his selection as America’s first space traveler was undoubtedly his proudest accomplishment. “Not because of the fame or the recognition,” Shepard once said, “but because America’s best test pilots went through this selection process, down to seven guys, and of those seven, I was the one to go.After learning of his important role in early 1961, Shepard embraced his wife, Louise Shepard, and told her that she had her arms around the world’s first spaceman. But her reply was not quite what he had expected. “Who let a Russian in here?” she playfully jibed. She knew the Soviets had already launched the first artificial satellite, Sputnik, put dogs into orbit, and flown probes to the Moon. Sending a man into space, surely, was next on their list.Louise Shepard’s offhand remark returned to bite on April 12, 1961, when Yuri Gagarin carried out the first human spaceflight by riding Vostok 1 around the planet, returning to instant global fame. The United States had missed yet another chance to be first.",
+        img: img2,
+        date: new Date()
+    },
+    {
+        id: 3,
+        title:'Going to the bathroom in outer space',
+        description: 'Whether it’s #1 or #2, NASA has finally figured out the space loo',
+        content: 'There are a lot of challenges involved in putting humans in space. Not the least of which is figuring out how they will go to the bathroom.Even before the space age, the military’s U-2 program faced this challenge. These long-distance reconnaissance planes fly at 70,000 feet (21,336 meters). In-flight peeing was, in the early days, managed by an in-suit catheter, inserted into the then-exclusively-male pilots’ penises and threaded into their bladders. The urine was siphoned out of the bladder and into a bag. As you can imagine, the pilots didn’t think it was the ideal solution. NASA eventually came up with a better solution for space flights, but it took them a while to get it right.For the first American flight into space, in 1961, NASA didn’t have a plan for peeing. They didn’t think they’d need one for the fifteen-minute flight. Thanks to a series of small problems, however, the launch was delayed. After three hours suited up and on his back in the Freedom 7 rocket, solo crew member Alan Shepard radioed command with a very down-to-Earth message: “Man, I gotta pee.”Shepard asked if he could temporarily get out of his suit to relieve himself of the coffee and OJ he’d had for breakfast. Command responded with a decisive “No.” But they did temporarily turn off the electrical parts of his suit so that he could just pee right in his pants without the risk of frying himself. One small oversight for NASA, one great pee for Alan Shepard.On later and longer spaceflights, NASA came up with a better plan. Astronauts urinated via an arrangement involving what NASA describes as “a rubber cuff connected to a flexible collection bag.”',
+        img: img3,
+        date: new Date()
+    },
+    {
+        id: 4,
+        title: 'Is exploring space hazardous to our health?',
+        description: 'Scientists are trying to better understand what happens to human bodies in deep space.',
+        content: 'The plan so far: land the next humans on the Moon by 2024. And, if all goes well, use Earth’s natural satellite as a springboard to Mars.Before that happens, though, we will need some answers about the impact on human health of exploring deep space.Testing in low orbit .It might seem like we should have plenty of information on how space effects the human body. Astronauts have been exploring it since Yuri Gagarin became the first person to cross the boundary in 1961. But that was only for just under two hours and data from historic lunar missions are still limited to only a few days at a time. A trip to Mars, on the other hand, would take months.To study the effects on human biology in space, researchers use analogs and simulators on Earth to replicate space conditions. The Translational Research Institute for Space Health (TRISH), for example, is working on a Mars mission simulator to study the physiological effects of prolonged space travel on the human body. And while not a perfect analog, NASA’s Human Research Program currently observes ISS crew to learn how the body adapts to living space longer periods of time. Situated in low Earth orbit — where astronauts are mostly safe from dangerous space radiation — the ISS is an invaluable research setting because the conditions there still cause fundamental changes in biological systems compared to those on Earth’s surface. NASA’s famous Twins Study tracked biological and mental changes of two identical twin brothers as one orbited in space (Scott Kelly) and the other remained firmly on Earth (Mark Kelly). The study’s purpose was to determine the effect of spaceflight hazards on the human body. Although numerous changes were cataloged, researchers did note that following Scott’s return to Earth, several of those changes disappeared. Some, however, remained even after six months, including DNA damage from chromosomal inversions, shortened telomeres (which are linked to aging), and attenuated cognitive function.',
+        img: img4,
+        date: new Date()
+    },
+    {
+        id: 5,
+        title: 'Who has the right of way in space?',
+        description: 'An agreement between SpaceX and NASA should help manage satellite traffi',
+        content: 'In January of 2020, two decommissioned satellites orbiting Earth made a really close pass. Traveling towards each other with a combined speed of 33,000 mph (53,000 k/hr) the two barely missed each other, coming as close as 210 feet (65 meters).To make sure an event like this doesn’t happen with any of NASA’s satellites and the internet-providing Starlink satellites from SpaceX, the two groups have agreed to share information about where their spacecraft are flying; settling the question of who has the right of way. Unsurprisingly, it’s NASA, according to the safety agreement, announced March 18, 2021.“SpaceX has agreed its Starlink satellites will autonomously or manually maneuver to ensure the missions of NASA science satellites and other assets can operate uninterrupted from a collision avoidance perspective,” according to the NASA release And to avoid any confusion, in the event of a potential conjunction, NASA will not move its satellites. This way the agencies don’t run the risk of maneuvering into each other while trying to avoid a collision. The number of satellite payloads launched in 2020 jumped to 1,261 — more than twice as many as in 2019 (522), according to statistics maintained by astrophysicist Jonathan McDowell at the Harvard-Smithsonian Center for Astrophysics. The 833 Starlink satellites that SpaceX launched last year account for most of that increaseTo help address the issue, in December 2020, NASA released a handbook for aerospace companies, outlining what the agency had found to be best practices for avoiding a collision in low-Earth orbit.',
+        img: img5,
+        date: new Date()
+    }
+
+]
