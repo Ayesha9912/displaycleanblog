@@ -4,13 +4,12 @@ import About from './Components/About'
 import Post from './Components/Post'
 import Contact from './Components/Contact';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
 function App(){
   return(
     <div>
-      <BrowserRouter basename='/displaycleanblog'>
+      <BrowserRouter>
       <Routes>
-        <Route path="/displaycleanblog" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/post/:id" element={<Post/>}/>
